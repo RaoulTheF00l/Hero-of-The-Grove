@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://e5jpmp720e8r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qbkls"]
+size = Vector2(16, 16)
+
+[node name="Player" type="CharacterBody2D" unique_id=1233149465]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=944047295]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=430760349]
+shape = SubResource("RectangleShape2D_qbkls")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1870296782]
+zoom = Vector2(2, 2)
