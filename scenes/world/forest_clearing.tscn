@@ -2,11 +2,26 @@
 
 [ext_resource type="PackedScene" uid="uid://e5jpmp720e8r" path="res://scenes/player/player.tscn" id="1_4xe6v"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4xe6v"]
+size = Vector2(22, 42)
+
 [node name="ForestClearing" type="Node2D" unique_id=240979211]
 
 [node name="TempFloor" type="ColorRect" parent="." unique_id=1726053083]
 offset_right = 640.0
 offset_bottom = 360.0
+
+[node name="TestWall" type="StaticBody2D" parent="." unique_id=1451665587]
+position = Vector2(361, 169)
+
+[node name="ColorRect" type="ColorRect" parent="TestWall" unique_id=159599221]
+offset_right = 20.0
+offset_bottom = 40.0
+color = Color(0.85251606, 0.010721606, 0.99999994, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TestWall" unique_id=839886996]
+position = Vector2(10, 20)
+shape = SubResource("RectangleShape2D_4xe6v")
 
 [node name="Player" parent="." unique_id=1233149465 instance=ExtResource("1_4xe6v")]
 position = Vector2(320, 180)
