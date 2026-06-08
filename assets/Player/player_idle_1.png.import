@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc604dbewe4dm"
-path="res://.godot/imported/Thief_Idle_1.png-555565c9fa8152dcce8b70e245607621.ctex"
+path="res://.godot/imported/player_idle_1.png-20ebd6c5d0530c065bcf641ca127ede5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/placeholder/Fantasy RPG NPCs - Individuel Frames/All/Thief_Idle_1.png"
-dest_files=["res://.godot/imported/Thief_Idle_1.png-555565c9fa8152dcce8b70e245607621.ctex"]
+source_file="res://assets/Player/player_idle_1.png"
+dest_files=["res://.godot/imported/player_idle_1.png-20ebd6c5d0530c065bcf641ca127ede5.ctex"]
 
 [params]
 

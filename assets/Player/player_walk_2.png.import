@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwb5cj0pqvlga"
-path="res://.godot/imported/Thief_Walk_4.png-fb92e689605c2c0c323362b94c43ec51.ctex"
+uid="uid://fepl0g46ffmb"
+path="res://.godot/imported/player_walk_2.png-9456445d1b063c7932b6032ec959902b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/placeholder/Fantasy RPG NPCs - Individuel Frames/All/Thief_Walk_4.png"
-dest_files=["res://.godot/imported/Thief_Walk_4.png-fb92e689605c2c0c323362b94c43ec51.ctex"]
+source_file="res://assets/Player/player_walk_2.png"
+dest_files=["res://.godot/imported/player_walk_2.png-9456445d1b063c7932b6032ec959902b.ctex"]
 
 [params]
 

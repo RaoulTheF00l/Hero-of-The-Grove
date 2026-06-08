@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ch08lxnfmlurs"
-path="res://.godot/imported/Thief_Idle_4.png-69e24f5289f706fee2890b9b0fb99c88.ctex"
+uid="uid://dbog43unrfun7"
+path="res://.godot/imported/player_idle_2.png-d2ba7d1126b5293b3e8fba4dbd414a1f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/placeholder/Fantasy RPG NPCs - Individuel Frames/All/Thief_Idle_4.png"
-dest_files=["res://.godot/imported/Thief_Idle_4.png-69e24f5289f706fee2890b9b0fb99c88.ctex"]
+source_file="res://assets/Player/player_idle_2.png"
+dest_files=["res://.godot/imported/player_idle_2.png-d2ba7d1126b5293b3e8fba4dbd414a1f.ctex"]
 
 [params]
 
