@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://e5jpmp720e8r" path="res://scenes/player/player.tscn" id="1_4xe6v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4xe6v"]
-size = Vector2(22, 42)
+size = Vector2(20, 41)
 
 [node name="ForestClearing" type="Node2D" unique_id=240979211]
 
@@ -14,13 +14,13 @@ offset_bottom = 360.0
 [node name="TestWall" type="StaticBody2D" parent="." unique_id=1451665587]
 position = Vector2(361, 169)
 
-[node name="ColorRect" type="ColorRect" parent="TestWall" unique_id=159599221]
+[node name="WallVisual" type="ColorRect" parent="TestWall" unique_id=159599221]
 offset_right = 20.0
 offset_bottom = 40.0
 color = Color(0.85251606, 0.010721606, 0.99999994, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TestWall" unique_id=839886996]
-position = Vector2(10, 20)
+position = Vector2(10, 19.5)
 shape = SubResource("RectangleShape2D_4xe6v")
 
 [node name="Player" parent="." unique_id=1233149465 instance=ExtResource("1_4xe6v")]
