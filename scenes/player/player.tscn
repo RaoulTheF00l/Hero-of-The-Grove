@@ -6,6 +6,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qbkls"]
 size = Vector2(16, 16)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_dovo2"]
+radius = 24.0
+
 [node name="Player" type="CharacterBody2D" unique_id=1233149465]
 texture_filter = 1
 script = ExtResource("1_p0vlq")
@@ -19,3 +22,12 @@ shape = SubResource("RectangleShape2D_qbkls")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1870296782]
 zoom = Vector2(2, 2)
+
+[node name="Interactablezone" type="Area2D" parent="." unique_id=1391858804]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactablezone" unique_id=663251284]
+position = Vector2(0, 7.5)
+shape = SubResource("CircleShape2D_dovo2")
+
+[connection signal="area_entered" from="Interactablezone" to="." method="_on_interactablezone_area_entered"]
+[connection signal="area_exited" from="Interactablezone" to="." method="_on_interactablezone_area_exited"]

@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://e5jpmp720e8r" path="res://scenes/player/player.tscn" id="1_4xe6v"]
 [ext_resource type="Texture2D" uid="uid://djsmbiu0vu581" path="res://assets/placeholder/0x72_DungeonTilesetII_v1.7/frames/hole.png" id="1_ad40w"]
+[ext_resource type="PackedScene" uid="uid://dq4uqm4yh21yc" path="res://scenes/npc/npc.tscn" id="3_0pat1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4xe6v"]
 size = Vector2(20, 41)
@@ -261,3 +262,6 @@ shape = SubResource("RectangleShape2D_0pat1")
 
 [node name="Player" parent="." unique_id=1233149465 instance=ExtResource("1_4xe6v")]
 position = Vector2(320, 180)
+
+[node name="Npc" parent="." unique_id=1978528780 instance=ExtResource("3_0pat1")]
+position = Vector2(261, 216)
